@@ -1,0 +1,48 @@
+# Favicon 网站图标说明
+
+## 什么是Favicon？
+
+Favicon是显示在浏览器标签页上的小图标，提升网站专业度。
+
+## 如何创建？
+
+### 方法1：在线生成（推荐）
+1. 访问 https://realfavicongenerator.net
+2. 上传您的logo图片
+3. 下载生成的favicon包
+4. 将 favicon.ico 或 favicon.png 放入此文件夹
+
+### 方法2：使用工具
+- Photoshop：创建64x64像素，保存为PNG
+- 在线工具：https://favicon.io
+- 转换工具：https://convertio.co
+
+### 方法3：暂时不使用
+如果不添加favicon，浏览器会显示默认图标，不影响网站功能。
+
+## 文件格式
+- **favicon.ico** - 传统格式，兼容性最好
+- **favicon.png** - 现代格式，支持透明背景
+
+## 建议尺寸
+- 16x16 像素（最小）
+- 32x32 像素（推荐）
+- 64x64 像素（高清）
+
+## 如何使用？
+
+如果添加了favicon文件，需要在 `index.html` 第19行取消注释：
+
+```html
+<!-- 当前已注释，如需使用请取消注释并添加文件 -->
+<!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
+```
+
+修改为：
+```html
+<link rel="icon" type="image/png" href="images/favicon.png">
+```
+
+---
+
+**提示：** 这是可选功能，不影响网站核心功能。
