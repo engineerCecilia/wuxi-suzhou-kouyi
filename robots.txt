@@ -1,0 +1,99 @@
+# robots.txt for 苏州无锡机械口译网站
+# 域名: https://wuxi-suzhou-kouyi.starspace.xin
+# 最后更新: 2024年
+
+# ========================================
+# 全局规则 - 允许所有搜索引擎抓取
+# ========================================
+User-agent: *
+Allow: /
+
+# ========================================
+# 屏蔽目录 - 防止收录无关内容
+# ========================================
+# 后台管理目录（如果未来添加）
+Disallow: /admin/
+Disallow: /backend/
+Disallow: /wp-admin/
+
+# 临时文件和草稿目录
+Disallow: /tmp/
+Disallow: /temp/
+Disallow: /drafts/
+Disallow: /backup/
+
+# 开发测试目录
+Disallow: /dev/
+Disallow: /test/
+Disallow: /staging/
+
+# 系统文件
+Disallow: /.git/
+Disallow: /.svn/
+Disallow: /node_modules/
+
+# ========================================
+# Google 爬虫优化
+# ========================================
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Google 图片爬虫
+User-agent: Googlebot-Image
+Allow: /images/
+Crawl-delay: 1
+
+# Google 移动端爬虫
+User-agent: Googlebot-Mobile
+Allow: /
+Crawl-delay: 1
+
+# ========================================
+# Bing 爬虫优化
+# ========================================
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# ========================================
+# 其他主流搜索引擎
+# ========================================
+# 百度爬虫
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 1
+
+# 搜狗爬虫
+User-agent: Sogou web spider
+Allow: /
+Crawl-delay: 1
+
+# 360爬虫
+User-agent: 360Spider
+Allow: /
+Crawl-delay: 1
+
+# Yahoo爬虫
+User-agent: Slurp
+Allow: /
+Crawl-delay: 2
+
+# DuckDuckGo爬虫
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+# ========================================
+# Sitemap 地址
+# ========================================
+Sitemap: https://wuxi-suzhou-kouyi.starspace.xin/sitemap.xml
+
+# ========================================
+# 说明
+# ========================================
+# 1. 本站为纯静态HTML网站，所有内容均允许收录
+# 2. Crawl-delay设置为1秒，避免服务器压力
+# 3. 仅屏蔽后台、临时、开发等无关目录
+# 4. sitemap.xml需单独生成并上传到网站根目录
+# 5. 建议定期提交sitemap到Google Search Console和百度站长平台

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- 
+    苏州无锡机械口译网站 Sitemap
+    域名: https://wuxi-suzhou-kouyi.starspace.xin
+    生成时间: 2024年
+    说明: 本站为单页应用(SPA)，所有板块通过锚点链接访问
+  -->
+  
+  <!-- 首页 - 最高优先级 -->
+  <url>
+    <loc>https://wuxi-suzhou-kouyi.starspace.xin/</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- 机械口译服务板块 -->
+  <url>
+    <loc>https://wuxi-suzhou-kouyi.starspace.xin/#services</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- 苏州全域服务区域 -->
+  <url>
+    <loc>https://wuxi-suzhou-kouyi.starspace.xin/#suzhou</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- 无锡全域服务区域 -->
+  <url>
+    <loc>https://wuxi-suzhou-kouyi.starspace.xin/#wuxi</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- 译员简介 -->
+  <url>
+    <loc>https://wuxi-suzhou-kouyi.starspace.xin/#about</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- 服务案例 -->
+  <url>
+    <loc>https://wuxi-suzhou-kouyi.starspace.xin/#cases</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- 收费标准 -->
+  <url>
+    <loc>https://wuxi-suzhou-kouyi.starspace.xin/#pricing</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- 微信预约联系 -->
+  <url>
+    <loc>https://wuxi-suzhou-kouyi.starspace.xin/#contact</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+</urlset>
