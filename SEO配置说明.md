@@ -202,7 +202,7 @@ https://wuxi-suzhou-kouyi.starspace.xin/sitemap.xml
 
 1. **修改sitemap.xml**
    ```xml
-   <lastmod>2024-XX-XX</lastmod>  <!-- 更新日期 -->
+   <lastmod>2026-XX-XX</lastmod>  <!-- 更新日期 -->
    ```
 
 2. **重新提交**
@@ -311,6 +311,6 @@ A:
 
 ---
 
-**最后更新**: 2024年  
+**最后更新**: 2026年  
 **域名**: https://wuxi-suzhou-kouyi.starspace.xin  
 **文件版本**: v1.0
